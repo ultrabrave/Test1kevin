@@ -27,7 +27,7 @@ public class ResultActivity extends Activity{
         setContentView(R.layout.activity_result);
 
         AudioManager audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 20, 0);
+        audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 10, 0);
 
         imagephoto = (ImageView) findViewById(R.id.imagephoto);
         lineacolor = (LinearLayout) findViewById(R.id.backgroundimage);
